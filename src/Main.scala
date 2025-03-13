@@ -25,7 +25,8 @@ object Main {
 
   def main(args: Array[String]): Unit = {
     println("Using iterative solution:")
-          val iterativeResult = calculateSweetsIterative(15)
-          println(s"Final result (iterative): $iterativeResult sweets\n")
+    val iterativeResult = calculateSweetsIterative(15)
+    println(s"Final result (iterative): $iterativeResult sweets\n")
+    println("end of Demo")
   }
 }
